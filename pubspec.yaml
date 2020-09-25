@@ -24,6 +24,7 @@ dependencies:
   flutter:
     sdk: flutter
   intl: ^0.16.1
+  modal_bottom_sheet: ^0.2.2
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -44,6 +45,21 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/images/img_waiting.png
+
+  fonts:
+   - family: OpenSans
+     fonts:
+       - asset: assets/fonts/OpenSans-Regular.ttf
+       - asset: assets/fonts/OpenSans-Bold.ttf
+         weight: 700
+   - family: Quicksand
+     fonts:
+       - asset: assets/fonts/Quicksand-Regular.ttf
+       - asset: assets/fonts/Quicksand-Bold.ttf
+         weight: 700
 
   # To add assets to your application, add an assets section, like this:
   # assets:
